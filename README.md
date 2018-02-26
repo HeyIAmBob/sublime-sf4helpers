@@ -1,19 +1,19 @@
-#Sublime Text 3 Symfony 4 helpers
+# Sublime Text 3 Symfony 4 helpers
 
 This project is a plugin for Sublime Text 3 (Mac OSX for the moment).
 It allow to call symfony command line from the palette (cmd+shift+p) input.
 
 
 
-##Commands
+## Commands
 You can use the folowing commands : 
 
-###Miscellaneous
+### Miscellaneous
 - Sf4: Create new project
 - Sf4: About project
 - Sf4: config:dump-reference
 
-###Make
+### Make
 These commands will open the created file
 - Sf4: make:auth
 - Sf4: make:command
@@ -28,19 +28,19 @@ These commands will open the created file
 - Sf4: make:validator
 - Sf4: make:voter
 
-###Security
+### Security
 - Sf4: router:match
 - Sf4: security:check
 - Sf4: security:encode-password
 
-###Server
+### Server
 - Sf4: Server:log
 - Sf4: Server:run
 - Sf4: Server:start
 - Sf4: Server:status
 - Sf4: Server:stop
 
-###Doctrine
+### Doctrine
 - Sf4: doctrine:migrations:diff
 - Sf4: doctrine:migrations:migrate
 - Sf4: doctrine:migrations:generate
@@ -61,13 +61,13 @@ These commands will open the created file
 - Sf4: doctrine:mapping:info
 - Sf4: doctrine:schema:validate
 
-##Cache
+## Cache
 - Sf4: cache:clear
 - Sf4: cache:pool:clear
 - Sf4: cache:pool:prune
 - Sf4: cache:warmup
 
-###Debug
+### Debug
 - Sf4: debug:autowiring
 - Sf4: debug:config
 - Sf4: debug:container

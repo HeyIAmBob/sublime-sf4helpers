@@ -28,12 +28,12 @@ The folowing command are not implemented yet
 - doctrine:mapping:convert                [orm:convert:mapping] Convert mapping information between supported formats
 - doctrine:mapping:import                 Imports mapping information from an existing database
 
-####lint
+#### lint
 - lint:twig    -->need a twig file in params                            Lints a template and outputs encountered errors
 - lint:xliff                              Lints a XLIFF file and outputs encountered errors
 - lint:yaml                               Lints a file and outputs encountered errors
 
-####swiftmailer
+#### swiftmailer
 - swiftmailer:email:send                  Send simple email message
 - swiftmailer:spool:send                  Sends emails from the spool
 
