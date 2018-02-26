@@ -1,5 +1,7 @@
 # Sublime Text 3 Symfony 4 helpers
 
+![Symfony4Helper](https://raw.githubusercontent.com/heyiambob/sublime-sf4helpers/master/resources/sf4helpers.png)
+
 This project is a plugin for Sublime Text 3 (Mac OSX for the moment).
 It allow to call symfony command line from the palette (cmd+shift+p) input.
 
