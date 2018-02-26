@@ -1,0 +1,363 @@
+[
+	{
+        "caption": "Sf4: Create new project",
+        "command": "sf4h_prompt_external_custom", "args":{
+        	"command":"composer create-project symfony/skeleton ",
+        	"prompt":"Project name"
+        }
+    },
+ 	//miscellaneous
+	{
+        "caption": "Sf4: About project",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"about"
+        }
+    },
+    {
+        "caption": "Sf4: config:dump-reference",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"config:dump-reference"
+        }
+    },
+    //make
+    {
+        "caption": "Sf4: make:auth",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"router:match",
+        	"prompt":"Authenticator class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:command",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:command",
+        	"prompt":"Command class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:controller",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:controller",
+        	"prompt":"Controller class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:entity",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:entity",
+        	"prompt":"Entity class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:form",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:form",
+        	"prompt":"Form class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:functional-test",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:functional-test",
+        	"prompt":"Functional-test class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:serializer:encoder",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:serializer:encoder",
+        	"prompt":"Encoder class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:subscriber",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:subscriber",
+        	"prompt":"Subscriber class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:twig-extension",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:twig-extension",
+        	"prompt":"Twig-extension class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:unit-test",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:unit-test",
+        	"prompt":"Unit-test class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:validator",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:controller",
+        	"prompt":"Validator class name"
+        }
+    },
+    {
+        "caption": "Sf4: make:voter",
+        "command": "sf4h_prompt_make", "args":{
+        	"command":"make:controller",
+        	"prompt":"Voter class name"
+        }
+    },
+    //router
+    {
+        "caption": "Sf4: router:match",
+        "command": "sf4h_prompt_internal_and_display", "args":{
+        	"command":"router:match",
+        	"prompt":"Route to check"
+        }
+    },
+    //security
+    {
+        "caption": "Sf4: security:check",
+        "command": "sf4h_external", "args":{
+        	"command":"security:check"
+        }
+    },
+    {
+        "caption": "Sf4: security:encode-password",
+        "command": "sf4h_external", "args":{
+        	"command":"security:encode-password"
+        }
+    },
+    //server
+    {
+        "caption": "Sf4: Server:log",
+        "command": "sf4h_external", "args":{
+        	"command":"server:log"
+        }
+    },
+    {
+        "caption": "Sf4: Server:run",
+        "command": "sf4h_external", "args":{
+        	"command":"server:run"
+        }
+    },
+    {
+        "caption": "Sf4: Server:start",
+        "command": "sf4h_external", "args":{
+        	"command":"server:start"
+        }
+    },
+    {
+        "caption": "Sf4: Server:status",
+        "command": "sf4h_internal", "args":{
+        	"command":"server:status"
+        }
+    },
+    {
+        "caption": "Sf4: Server:stop",
+        "command": "sf4h_internal", "args":{
+        	"command":"server:stop"
+        }
+    },
+    //doctrine
+    {
+        "caption": "Sf4: doctrine:migrations:diff",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:migrations:diff"
+        }
+    },
+    {
+        "caption": "Sf4: doctrine:migrations:migrate",
+        "command": "sf4h_external", "args":{
+        	"command":"doctrine:migrations:migrate"
+        }
+    },
+    {
+        "caption": "Sf4: doctrine:migrations:generate",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:migrations:generate"
+        }
+    },
+    {
+        "caption": "Sf4: doctrine:migrations:status",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:migrations:status"
+        }
+    },
+    {
+        "caption": "Sf4: doctrine:migrations:version --add",
+        "command": "sf4h_prompt_internal", "args":{
+        	"command":"doctrine:migrations:version --add",
+        	"prompt":"Version number"
+        }
+    },
+    {
+        "caption": "Sf4: doctrine:migrations:version --delete",
+        "command": "sf4h_prompt_internal", "args":{
+        	"command":"doctrine:migrations:version --delete",
+        	"prompt":"Version number"
+        }
+    },
+    {
+        "caption": "Sf4: doctrine:migrations:latest",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:migrations:latest"
+        }
+    },
+
+    {
+        "caption": "Sf4: doctrine:cache:clear-query",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:cache:clear-query"
+        }
+    },
+    {
+        "caption": "Sf4: doctrine:cache:clear-metadata",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:cache:clear-metadata"
+        }
+    },
+
+    {
+        "caption": "Sf4: doctrine:cache:clear-result",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:cache:clear-result"
+        }
+    },
+
+    {
+        "caption": "Sf4: doctrine:database:create",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:database:create"
+        }
+    },
+
+    {
+        "caption": "Sf4: doctrine:database:drop",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:database:drop"
+        }
+    },
+
+    {
+        "caption": "Sf4: doctrine:fixtures:load",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:fixtures:load"
+        }
+    },
+    {
+        "caption": "Sf4: doctrine:schema:create",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:schema:create"
+        }
+    },
+    {
+        "caption": "Sf4: doctrine:schema:drop",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:schema:drop"
+        }
+    },
+    {
+        "caption": "Sf4: doctrine:schema:update",
+        "command": "sf4h_internal", "args":{
+        	"command":"doctrine:schema:update"
+        }
+    },
+	{
+        "caption": "Sf4: doctrine:migrations:execute",
+        "command": "sf4h_prompt_internal", "args":{
+        	"command":"doctrine:migrations:execute",
+        	"prompt":"Version number"
+        }
+    },
+
+	{
+        "caption": "Sf4: doctrine:mapping:info",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"doctrine:mapping:info"
+        }
+    },
+	{
+        "caption": "Sf4: doctrine:schema:validate",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"doctrine:schema:validate"
+        }
+    },
+    //cache
+    {
+        "caption": "Sf4: cache:clear",
+        "command": "sf4h_internal", "args":{
+        	"command":"cache:clear"
+        }
+    },
+    {
+        "caption": "Sf4: cache:pool:clear",
+        "command": "sf4h_internal", "args":{
+        	"command":"cache:pool:clear"
+        }
+    },
+    {
+        "caption": "Sf4: cache:pool:prune",
+        "command": "sf4h_internal", "args":{
+        	"command":"cache:pool:prune"
+        }
+    },
+    {
+        "caption": "Sf4: cache:warmup",
+        "command": "sf4h_internal", "args":{
+        	"command":"cache:warmup"
+        }
+    },
+    //debug
+    {
+        "caption": "Sf4: debug:autowiring",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"debug:autowiring"
+        }
+    },
+    {
+        "caption": "Sf4: debug:config",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"debug:config"
+        }
+    },
+    {
+        "caption": "Sf4: debug:container",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"debug:container"
+        }
+    },
+    {
+        "caption": "Sf4: debug:event-dispatcher",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"debug:event-dispatcher"
+        }
+    },
+    {
+        "caption": "Sf4: debug:form",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"debug:form"
+        }
+    },
+    {
+        "caption": "Sf4: debug:router",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"debug:router"
+        }
+    },
+    {
+        "caption": "Sf4: debug:swiftmailer",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"debug:swiftmailer"
+        }
+    },
+    {
+        "caption": "Sf4: debug:translation",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"debug:translation"
+        }
+    },
+    {
+        "caption": "Sf4: debug:twig",
+        "command": "sf4h_internal_and_display", "args":{
+        	"command":"debug:twig"
+        }
+    },
+]
